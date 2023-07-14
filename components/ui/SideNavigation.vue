@@ -20,26 +20,26 @@
           </h3>
           <div class="space-y-1">
             <NuxtLink
-              to="/docs/getting-started/introduction"
+              to="/"
               class="flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md dark:text-gray-50"
             >
               <span class="truncate">Introduction</span>
             </NuxtLink>
             <NuxtLink
-              to="/docs/getting-started/quick-start"
+              to="/posts"
               class="flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md dark:text-gray-50"
             >
               <span class="truncate">Blogs</span>
             </NuxtLink>
-            <NuxtLink
-              to="/docs/getting-started/installation"
-              class="flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md dark:text-gray-50"
-            >
-              <span class="truncate">Projects</span>
-            </NuxtLink>
+<!--            <NuxtLink-->
+<!--              to="/docs/getting-started/installation"-->
+<!--              class="flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md dark:text-gray-50"-->
+<!--            >-->
+<!--              <span class="truncate">Projects</span>-->
+<!--            </NuxtLink>-->
           </div>
         </div>
-        <!--         Components-->
+        <!--         Talks-->
         <div class="mt-8">
           <h3 class="px-3 mb-3 text-xs font-semibold tracking-wide text-gray-900 uppercase dark:text-gray-50">
             Talks/Workshops/Streams

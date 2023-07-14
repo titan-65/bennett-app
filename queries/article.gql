@@ -1,0 +1,13 @@
+query article {
+  articles {
+    id
+    title
+    tag
+    images
+    stage
+    slug
+    preview
+    likes
+    created
+  }
+}

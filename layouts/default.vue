@@ -5,8 +5,8 @@
       <UiSideNavigation />
       <div class="lg:col-span-8 flex-auto mt-8 min-h-0 flex flex-col">
         <slot />
-      </div>
 
+      </div>
 
     </div>
 

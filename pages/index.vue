@@ -23,7 +23,7 @@
           <nuxt-img src="/restja.jpg" class="rounded-lg"/>
         </div>
       </div>
-      <div class="prose">
+      <div class="prose dark:text-gray-100">
         <p>
           I am a self-taught developer who has been working in the industry for over 10 years. I have worked with a variety of languages and frameworks, but I am currently focused on <span class="text-primary-400">Vue.js</span> and <span class="text-primary-700">Nuxt.js</span>. I am passionate about building accessible, performant, and delightful user experiences.
         </p>
@@ -32,12 +32,20 @@
       <h2 class="font-medium mt-4 mb-8 text-3xl">Social Platforms</h2>
 
       <div>
-         <div class="prose">
-        Streaming on <UBadge label="Twitch" color="purple" /> and <UBadge label="YouTube" color="red" />.
+         <div class="prose dark:text-gray-50">
+           Streaming on <UBadge label="Twitch" color="purple">
+            <a class="dark:text-gray-400 no-underline" href="https://www.twitch.tv/ceodevforce" target="_blank" rel="noopener noreferrer">twitch.tv/ceodevforce</a>
+         </UBadge> and <UBadge label="Twitter" color="blue">
+            <a class="dark:text-gray-400 no-underline" href="https://twitter.com/VantolBennett" target="_blank" rel="noopener noreferrer">twitter.com/VantoBennett</a>
+         </UBadge>.
       </div>
       </div>
     </div>
   </div>
 </template>
 <script setup lang="ts">
+
+const { data } = await useAsyncGql('article')
+
+console.log(data);
 </script>
