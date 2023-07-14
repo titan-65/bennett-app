@@ -1,4 +1,9 @@
-# Nuxt 3 Minimal Starter
+# Portfolio
+
+This is my portfolio website. It is built with [Nuxt 3](https://v3.nuxtjs.org/).
+
+
+## Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 

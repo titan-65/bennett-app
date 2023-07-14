@@ -45,7 +45,7 @@
 </template>
 <script setup lang="ts">
 
-const { data } = await useAsyncGql('article')
-
-console.log(data);
+// const { data } = await useAsyncGql('article')
+//
+// console.log(data);
 </script>
