@@ -40,44 +40,44 @@
           </div>
         </div>
         <!--         Talks-->
-        <div class="mt-8">
-          <h3 class="px-3 mb-3 text-xs font-semibold tracking-wide text-gray-900 uppercase dark:text-gray-50">
-            Talks/Workshops/Streams
-          </h3>
-          <div class="space-y-1">
-            <NuxtLink
-              to="/docs/components/alerts"
-              class="flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md dark:text-gray-50"
-            >
-              <span class="truncate">Twitch</span>
-            </NuxtLink>
-            <NuxtLink
-              to="/docs/components/buttons"
-              class="flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md dark:text-gray-50"
-            >
-              <span class="truncate">Streams</span>
-            </NuxtLink>
-            <NuxtLink
-              to="/docs/components/cards"
-              class="flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md dark:text-gray-50"
-            >
-              <span class="truncate">Podcasts</span>
-            </NuxtLink>
-          </div>
-        </div>
-    <!-- Demonstration -->
-        <div class="mt-8">
-          <h3 class="px-3 mb-3 text-xs font-semibold tracking-wide text-gray-900 uppercase dark:text-gray-50">
-            Demonstration
-          </h3>
-          <div class="space-y-1">
-            <NuxtLink
-              to="/docs/demonstration/overview"
-              class="flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md dark:text-gray-50"
-            >
-              <span class="truncate">Demos</span>
-            </NuxtLink>
-          </div>
-        </div>
+<!--        <div class="mt-8">-->
+<!--          <h3 class="px-3 mb-3 text-xs font-semibold tracking-wide text-gray-900 uppercase dark:text-gray-50">-->
+<!--            Talks/Workshops/Streams-->
+<!--          </h3>-->
+<!--          <div class="space-y-1">-->
+<!--            <NuxtLink-->
+<!--              to="/docs/components/alerts"-->
+<!--              class="flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md dark:text-gray-50"-->
+<!--            >-->
+<!--              <span class="truncate">Twitch</span>-->
+<!--            </NuxtLink>-->
+<!--            <NuxtLink-->
+<!--              to="/docs/components/buttons"-->
+<!--              class="flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md dark:text-gray-50"-->
+<!--            >-->
+<!--              <span class="truncate">Streams</span>-->
+<!--            </NuxtLink>-->
+<!--            <NuxtLink-->
+<!--              to="/docs/components/cards"-->
+<!--              class="flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md dark:text-gray-50"-->
+<!--            >-->
+<!--              <span class="truncate">Podcasts</span>-->
+<!--            </NuxtLink>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--    &lt;!&ndash; Demonstration &ndash;&gt;-->
+<!--        <div class="mt-8">-->
+<!--          <h3 class="px-3 mb-3 text-xs font-semibold tracking-wide text-gray-900 uppercase dark:text-gray-50">-->
+<!--            Demonstration-->
+<!--          </h3>-->
+<!--          <div class="space-y-1">-->
+<!--            <NuxtLink-->
+<!--              to="/docs/demonstration/overview"-->
+<!--              class="flex items-center px-3 py-2 text-sm font-medium text-gray-900 rounded-md dark:text-gray-50"-->
+<!--            >-->
+<!--              <span class="truncate">Demos</span>-->
+<!--            </NuxtLink>-->
+<!--          </div>-->
+<!--        </div>-->
       </aside>
 </template>
