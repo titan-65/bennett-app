@@ -31,7 +31,7 @@ const items = [
 </script>
 <template>
   <header
-    class="sticky top-0 z-50 w-full backdrop-blur flex-none border-b border-gray-900/10 dark:border-gray-50/[0.06] bg-white/75 dark:bg-gray-900/75"
+    class="sticky top-0 z-50 w-full backdrop-blur flex-none border-b border-gray-900/10 dark:border-gray-50/[0.06] bg-white/75 dark:bg-black"
   >
     <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
       <div class="flex items-center justify-between h-16">
